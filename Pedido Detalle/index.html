@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <title>FORMULARIO PEDIDO DETALLE</title>
+
+    <link  rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link  rel="stylesheet" href="css/bootstrap-grid.rtl.min.css" type="text/css">
+    <link  rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css">
+    <link  rel="stylesheet" href="css/bootstrap-reboot.rtl.min.css" type="text/css">
+    <link  rel="stylesheet" href="css/bootstrap-utilities.min.css"  type="text/css">
+    <link  rel="stylesheet" href="css/bootstrap-utilities.rtl.min.css" type="text/css">
+    <link  rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link  rel="stylesheet" href="css/bootstrap.rtl.min.css" type="text/css">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.esm.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body >
+    <div class="grid">
+
+
+    <div class="row" style="background:  linear-gradient(90deg, rgba(238,238,203,0.989233193277311) 0%, rgba(228,224,237,1) 49%, rgba(222,220,189,1) 100%); width: 107%; height: 105%;">
+
+        <div class="col-3" ></div>
+
+    <div class="col-6" style="background-color: #4cdf58ad;">
+
+    <form action="enlacephp.php" method="post">
+ 
+                   <h1 class="text">FORMULARIO PEDIDO DETALLE</h1>
+
+                   <label for="validationCustom01" class="form-label">Id Pedido</label>
+                   <input type="text" class="form-control" name="a"><br>
+                   
+                   <label for="validationCustom02" class="form-label">Id Producto</label>
+                   <input type="number" class="form-control" name="b"><br>
+
+                   <label for="validationCustom02" class="form-label">Cantidad</label>
+                   <input type="text" class="form-control" name="c"><br>
+
+                   <label for="validationCustom02" class="form-label">Subtotal</label>
+                   <input type="text" class="form-control" name="d"><br>
+     
+     <div class="d-grid gap-2 d-md-block">
+                    <input type="submit" class="btn btn-primary" name="cr" value="GUARDAR">
+                    <input type="reset"  class="btn btn-primary" name="cr" value="BORRAR">
+                 </div>
+     
+    </form>
+
+    <img src="logo.png" class="img">
+</div>
+    
+    
+</body>
+</html>
